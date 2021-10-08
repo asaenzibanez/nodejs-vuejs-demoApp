@@ -316,27 +316,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.submit-form {
-  max-width: 300px;
-  margin: auto;
-}
-/* Align place holder right
-webkit solution */
-::-webkit-input-placeholder { text-align:right; }
-/* mozilla solution */
-input:-moz-placeholder { text-align:right; }
-
-/*Remove Arrows/Spinners 
-Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
-</style>

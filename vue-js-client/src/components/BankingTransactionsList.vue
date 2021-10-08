@@ -206,15 +206,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.list {
-  max-width: 750px;
-}
-.style-1 {
-  background-color: #e8f9ea;
-}
-.style-2 {
-  background-color: #f3e4e4;
-}
-</style>
